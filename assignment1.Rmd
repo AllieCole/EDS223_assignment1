@@ -1,0 +1,27 @@
+---
+title: "Assignment One"
+author: "Allie Cole and Sage Kime"
+date: "9/27/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#Loading nessacary packages 
+
+library(RColorBrewer) #for colorblind friendly colors 
+library(rgeos)
+library(rnaturalearth) #dataset
+library(rnaturalearthdata) #dataset
+library(sf)
+library(spData) #dataset
+library(spDataLarge) #dataset
+library(tidyverse)
+library(tmap) #a mapping thing
+library(here) #to help load data within the project 
+
+```
+
