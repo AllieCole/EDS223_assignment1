@@ -25,3 +25,8 @@ library(here) #to help load data within the project
 
 ```
 
+```{r}
+rnaturalearth
+spData 
+```
+
